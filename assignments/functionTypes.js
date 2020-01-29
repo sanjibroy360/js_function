@@ -42,23 +42,31 @@ convertToString(21); // "21"
  * @param {number} n
  * @return {number}
  */
-
- function add1(n) // Function Decleration
- {
-   return n+1;
+ 
+ // Function Decleration
+ function add1(n) {  
+   return n + 1;
  }
 
- let addOne = function(n) //Function Expression
-            {
-              return n+1;
-            };
+ // Function Expression
 
- let addOne2 = (n) => n+1; //Arrow function without Curly braces
+ let addOne = function(n) {
+                return n + 1;
+              };
+ 
+ //Arrow function without Curly braces
 
- let addOne3 = (n) => {               //Arrow function with Curly braces
-                        return n+1;
+ let addOne2 = (n) => n + 1; 
+
+ //Arrow function with Curly braces
+
+ let addOne3 = (n) => {              
+                        return n + 1;
                       };
- add1(28); //function invocation
+ 
+ //function invocation
+
+ add1(28); 
 
 /**
  * Subtracts one from a given number.
@@ -66,21 +74,30 @@ convertToString(21); // "21"
  * @return {number}
  */
 
-function sub1(n)  // Function Decleration
- {
-   return n-1;
+ // Function Decleration
+
+ function sub1(n) {
+   return n - 1;
  }
 
-let subOne =  function (n) // Function Expression
-               {
-                  return n-1;
-               };
-let subOne2 = (n) => n-1; //Arrow Function without curly braces
+ // Function Expression
 
-let subOne3 = (n) => {              // Arrow Function with curly braces
-                        return n-1;
-                     };
-sub1(30); // Function Invocation
+ let subOne =  function (n) {
+                  return n - 1;
+               };
+
+ //Arrow Function without curly braces
+
+ let subOne2 = (n) => n - 1; 
+
+ // Arrow Function with curly braces
+
+ let subOne3 = (n) => {              
+                        return n - 1;
+                      };
+ // Function Invocation
+
+ sub1(30);
 
 /**
  * Adds two numbers.
@@ -89,23 +106,31 @@ sub1(30); // Function Invocation
  * @return {number} the sum
  */
 
-function addTwoNumbers(x,y) // Function Decleration
-{
-  return a+b;
-}
+ // Function Decleration
+ 
+ function addTwoNumbers(x, y) {
+   return x + y;
+ }
 
-let addTwoNums = function(x,y)  // Function Expression
-                 {
-                    return x+y;
-                 };
+ // Function Expression
 
-let addTwoNums2 = (x,y) => x+y; // Arrow Function without curly braces
+ let addTwoNums = function(x, y){
+                    return x + y;
+                  };
 
-let addTwoNums3 = (x,y) => {              // Arrow Function with curly braces
-                              return x+y;
-                           };
+ // Arrow Function without curly braces
 
-addTwoNumbers(12,8); // Function Invocation
+ let addTwoNums2 = (x, y) => x + y; 
+
+ // Arrow Function with curly braces
+
+ let addTwoNums3 = (x, y) => {             
+                              return x + y;
+                             };
+
+ // Function Invocation
+
+ addTwoNumbers(12, 8); 
 
 
 /**
@@ -114,24 +139,32 @@ addTwoNumbers(12,8); // Function Invocation
  * @param {number} y
  * @return {number} the difference
  */
+ 
+ // Function Decleration
 
-function subTwoNumbers(x,y) // Function Decleration
-{
-  return x-y;
-}
+ function subTwoNumbers(x, y) {
+  return x - y;
+ }
 
-let subTwoNums = function (x,y) //Function Expression
+ //Function Expression
+
+ let subTwoNums = function (x, y) 
                   {
-                    return x-y;
+                    return x - y;
                   };
 
-let subTwoNums2 = (x,y) => x-y; // Arrow function without curly braces
+ // Arrow function without curly braces
+ 
+ let subTwoNums2 = (x, y) => x - y; 
 
-let subTwoNums3 = (x,y) => {             // Arrow function with curly braces
-                              return x-y;
-                           };
+ // Arrow function with curly braces
 
-subTwoNums2(38-9); // Function Invocation
+ let subTwoNums3 = (x, y) => {             
+                              return x - y;
+                             };
+ // Function Invocation
+ 
+ subTwoNums2(38, 9); 
 
 
 /**
@@ -140,24 +173,32 @@ subTwoNums2(38-9); // Function Invocation
  * @param {number} y
  * @return {number} the product
  */
+ 
+ //Function Decleration
 
-function multiply(x,y) //Function Decleration
-{
-  return x*y;
-}
+ function multiply(x, y) {
+   return x * y;
+ }
 
-let multiplyTwoNumbers = function(x,y) //Function Expression
-                          {
-                            return x*y;
+ //Function Expression
+
+ let multiplyTwoNumbers = function(x, y) {
+                            return x * y;
                           };
 
-let multiplyTwoNumbers2 = (x,y) => x*y; // Arrow function without curly braces
+ // Arrow function without curly braces
 
-let multiplyTwoNumbers3 = (x,y) => {            //Arrow function with curly braces
-                                    return x*y;
-                                   };
+ let multiplyTwoNumbers2 = (x, y) => x * y;
+ 
+ //Arrow function with curly braces
 
-multiplyTwoNumbers2(10,10); // Function Invocation
+ let multiplyTwoNumbers3 = (x, y) => {            
+                                      return x * y;
+                                     };
+
+ // Function Invocation
+
+ multiplyTwoNumbers2(10, 10); 
 
 /**
  * Divides the first number by the second.
@@ -165,23 +206,29 @@ multiplyTwoNumbers2(10,10); // Function Invocation
  * @param {number} y
  * @return {number} the quotient
  */
+ //Function Decleration
 
-function divide(x,y) //Function Decleration
-{
-  return x/y;
-}
+ function divide(x, y) {
+   return x / y;
+ }
 
-let divide2 = function (x,y) // Function Expression
-              {
-                return x/y;
-              };
+ // Function Expression
+ let divide2 = function (x, y) {
+                 return x / y;
+               };
 
-let divide3 = (x,y) => x/y; // Arrow function without curly braces
+ // Arrow function without curly braces
 
-let divide4 = (x,y) => {               //Arrow function with curly braces
-                          return x/y;
-                       };
-divide2(50,2); // Function Invocation
+ let divide3 = (x, y) => x / y; 
+
+ //Arrow function with curly braces
+
+ let divide4 = (x, y) => {               
+                           return x / y;
+                         };
+ // Function Invocation
+
+ divide2(50, 2); 
 
 /**
  * Multiplies a number by itself.
@@ -189,22 +236,31 @@ divide2(50,2); // Function Invocation
  * @return {number} squared
  */
 
-function square(x)
-{
-  return x*x;
-}
+ //Function Decleration
 
-let squareNum = function (x)
-                {
-                  return x*x;
-                };
-let squareNum2 = (x) => x*x; //Arrow function without curly braces
+ function square(x) {
+   return x * x;
+ }
+ 
+ //Function Expression
 
-let squareNum3 = (x) => {               //Arrow function with curly braces
+ let squareNum = function (x) {
+                   return x * x;
+                 };
+
+ //Arrow function without curly braces
+
+ let squareNum2 = (x) => x * x; 
+
+ //Arrow function with curly braces
+
+ let squareNum3 = (x) => {              
                             return x*x;
-                        };
+                         };
 
-square(2); // Function Invocation
+ // Function Invocation
+
+ square(2); 
 
 /**
  * Performs a mathematical operation on two numbers.
@@ -214,64 +270,66 @@ square(2); // Function Invocation
  * @param {number} y
  * @return {number} the result
  */
+ 
+ // Function Decleration
 
-function calc(operation,x,y)  // Function Decleration
-{
-  switch(operation)
-  {
-    case "add" : alert(`${x} + ${y} = ${x+y}`);
-                 return x+y;
-    
-    case "subtract" : alert(`${x} - ${y} = ${x-y}`);
-                      return x-y;
+ function calc(operation, x, y) {
+    switch(operation) {
+      case "add" : alert(`${x} + ${y} = ${x + y}`);
+                   return x + y;
+      
+      case "subtract" : alert(`${x} - ${y} = ${x - y}`);
+                        return x - y;
 
-    case "multiply" : alert(`${x} * ${y} = ${x*y}`);
-                      return x*y;
+      case "multiply" : alert(`${x} * ${y} = ${x * y}`);
+                        return x * y;
 
-    case "divide" : alert(`${x} / ${y} = ${x/y}`);
-                    return x/y;
+      case "divide" : alert(`${x} / ${y} = ${x/y}`);
+                      return x / y;
+    }
+ }
+ 
+ // Function Expression
 
-  }
-}
-
-let calc2 = function (operation,x,y)    // Function Expression
+ let calc2 = function (operation, x, y)    
             {
-              switch(operation)
-              {
-                case "add" : alert(`${x} + ${y} = ${x+y}`);
-                            return x+y;
-                
-                case "subtract" : alert(`${x} - ${y} = ${x-y}`);
-                                  return x-y;
+                switch(operation) {
+                  case "add" : alert(`${x} + ${y} = ${x + y}`);
+                              return x + y;
+                  
+                  case "subtract" : alert(`${x} - ${y} = ${x - y}`);
+                                    return x - y;
 
-                case "multiply" : alert(`${x} * ${y} = ${x*y}`);
-                                  return x*y;
-                                  
-                case "divide" : alert(`${x} / ${y} = ${x/y}`);
-                                return x/y;
-
-              }
-            };
-
-let calc3 = (operation,x,y) => {                      //Arrow function with curly braces
-                                  switch(operation)
-                                  {
-                                    case "add" : alert(`${x} + ${y} = ${x+y}`);
-                                                 return x+y;
+                  case "multiply" : alert(`${x} * ${y} = ${x * y}`);
+                                    return x * y;
                                     
-                                    case "subtract" : alert(`${x} - ${y} = ${x-y}`);
-                                                      return x-y;
+                  case "divide" : alert(`${x} / ${y} = ${x / y}`);
+                                  return x / y;
 
-                                    case "multiply" : alert(`${x} * ${y} = ${x*y}`);
-                                                      return x*y;
-                                                      
-                                    case "divide" : alert(`${x} / ${y} = ${x/y}`);
-                                                    return x/y;
+                }
+             };
 
-                                  }
-                                };
+ //Arrow Function With Curly Braces
 
-calc3("add",20,9); // Function Invocation
+ let calc3 = (operation, x, y) => {                      
+                                    switch(operation) {
+                                      case "add" : alert(`${x} + ${y} = ${x + y}`);
+                                                   return x + y;
+                                      
+                                      case "subtract" : alert(`${x} - ${y} = ${x - y}`);
+                                                        return x - y;
+
+                                      case "multiply" : alert(`${x} * ${y} = ${x * y}`);
+                                                        return x * y;
+                                                        
+                                      case "divide" : alert(`${x} / ${y} = ${x / y}`);
+                                                      return x / y;
+
+                                    }
+                                  };
+ // Function Invocation
+ 
+ calc3("add", 20, 9);
 
 
 
@@ -281,24 +339,31 @@ calc3("add",20,9); // Function Invocation
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
-
-function compare(a,b) // Function Decleration
-{
+  
+ // Function Decleration
+ function compare(a, b) {
   return a > b;
-}
+ }
+ 
+ // Function Expression
 
-let compare2 = function (a,b)   // Function Expression
-                {
+ let compare2 = function (a, b) {
                   return a > b;
                 };
 
-let compare3 = (a,b) => a > b; //Arrow function without curly braces
+ //Arrow function without curly braces
 
-let compare4 = (a,b) => {              //Arrow function with curly braces
-                          return a > b;
-                        };
+ let compare3 = (a, b) => a > b; 
 
-compare(10,8); // Function Invocation
+ //Arrow function with curly braces
+
+ let compare4 = (a, b) => {              
+                           return a > b;
+                         };
+
+ // Function Invocation
+
+ compare(10, 8); 
 
 /**
  * Returns true if `a` is less than `b`.
@@ -307,23 +372,28 @@ compare(10,8); // Function Invocation
  * @return {boolean} `a` is smaller than `b`
  */
 
-function compareSmall(a,b) // Function Decleration
-{
-  return a < b;
-}
+ function compareSmall(a, b) {
+   return a < b;
+ }
 
-let compareSmall2 = function (a,b)   // Function Expression
-                {
-                  return a < b;
-                };
+ // Function Expression
 
-let compareSmall3 = (a,b) => a < b; //Arrow function without curly braces
+ let compareSmall2 = function (a, b) {
+                       return a < b;
+                     };
 
-let compareSmall4 = (a,b) => {              //Arrow function with curly braces
-                                return a < b;
-                             };
+ //Arrow function without curly braces
 
-compareSmall4(18,10); // Function Invocation
+ let compareSmall3 = (a, b) => a < b; 
+
+ //Arrow function with curly braces
+
+ let compareSmall4 = (a, b) => {              
+                                 return a < b;
+                               };
+ // Function Invocation
+
+ compareSmall4(18, 10); 
 
 
 /**
@@ -333,23 +403,31 @@ compareSmall4(18,10); // Function Invocation
  * @return {boolean} the numbers are equal
  */
 
-function equal(a,b) // Function a < b ? a: b;Decleration
-{
-  return a === b;
-}
+ // Function a < b ? a: b;Decleration
 
-let equal2 = function (a,b)   // Function Expression
+ function equal(a, b) {
+  return a === b;
+ }
+
+ // Function Expression
+
+ let equal2 = function (a, b)   
               {
                 return a === b;
               };
 
-let equal3 = (a,b) => a === b; //Arrow function without curly braces
+ //Arrow function without curly braces
 
-let equal4 = (a,b) => {               //Arrow function with curly braces
-                        return a === b;
-                      };
+ let equal3 = (a, b) => a === b; 
 
-equal4(10,10); // Function Invocation
+ //Arrow function with curly braces
+
+ let equal4 = (a, b) => {              
+                          return a === b;
+                        };
+ // Function Invocation
+
+ equal4(10, 10); 
 
 
 /**
@@ -359,23 +437,31 @@ equal4(10,10); // Function Invocation
  * @return {number} the smallest number
  */
 
-function smallest(x,y) // Function Decleration
-{
-  return x < y ? x : y;
-}
+ // Function Decleration
 
-let smallest2 = function (x,y)   // Function Expression
-              {
-                return x < y ? x : y;
-              };
+ function smallest(x, y) {
+   return x < y ? x : y;
+ }
 
-let smallest3 = (x,y) => x < y ? x : y; //Arrow function without curly braces
+ // Function Expression
 
-let smallest4 = (x,y) => {               //Arrow function with curly braces
-                          return x < y ? x : y;
-                         };
+ let smallest2 = function (x, y) {
+                    return x < y ? x : y;
+                 };
 
-smallest3(10,8); // Function Invocation
+ //Arrow function without curly braces
+
+ let smallest3 = (x, y) => x < y ? x : y;
+
+ //Arrow function with curly braces
+
+ let smallest4 = (x, y) => {               
+                             return x < y ? x : y;
+                           };
+
+ // Function Invocation
+ 
+ smallest3(10, 8); 
 
 
 /**
@@ -385,23 +471,31 @@ smallest3(10,8); // Function Invocation
  * @return {number} the largest number
  */
 
-function largest(x,y) // Function Decleration
-{
-  return x > y ? x : y;
-}
+ // Function Decleration
 
-let largest = function (a,b)   // Function Expression
-              {
-                return x > y ? x : y;
-              };
+ function largest(x, y) {
+   return x > y ? x : y;
+ }
 
-let largest3 = (x,y) => x > y ? x : y; //Arrow function without curly braces
+ // Function Expression
 
-let largest4 = (x,y) => {               //Arrow function with curly braces
-                          return x > y ? x : y;
-                        };
+ let largest = function (x, y) {
+                 return x > y ? x : y;
+               };
 
-largest3(10,8); // Function Invocation
+ //Arrow function without curly braces
+
+ let largest3 = (x, y) => x > y ? x : y; 
+
+ //Arrow function with curly braces
+
+ let largest4 = (x,y) => {               
+                           return x > y ? x : y;
+                         };
+                         
+ // Function Invocation
+ 
+ largest3(10, 8); 
 
 /**
  * Returns true if `n` is even.
@@ -409,45 +503,60 @@ largest3(10,8); // Function Invocation
  * @return {boolean} the number is even
  */
 
-function checkEven(n) // Function Decleration
-{
-  return (n%2===0);
-}
+ // Function Decleration
+ function checkEven(n) {
+   return (n % 2 === 0);
+ }
 
-let checkEven2 = function (n)   // Function Expression
-                  {
-                    return (n%2===0);
+ // Function Expression
+
+ let checkEven2 = function (n) {
+                    return (n % 2 === 0);
                   };
 
-let checkEven3 = (n) => (n%2===0); //Arrow function without curly braces
+ //Arrow function without curly braces
 
-let checkEven4 = (n) => {               //Arrow function with curly braces
-                            return (n%2===0);
-                          };
+ let checkEven3 = (n) => (n % 2 === 0); 
+ 
+ //Arrow function with curly braces
 
-checkEven4(10); // Function Invocation
+ let checkEven4 = (n) => {              
+                           return (n % 2 === 0);
+                         };
+ // Function Invocation
+
+ checkEven4(10); 
 /**
  * Returns true if `n` is odd.
  * @param {number} n
  * @return {boolean} the number is odd
  */
-function checkOdd(n) // Function Decleration
-{
-  return (n%2===1);
-}
 
-let checkOdd2 = function (n)   // Function Expression
-              {
-                return (n%2===1);
-              };
+ // Function Decleration
 
-let checkOdd3 = (n) => (n%2===1); //Arrow function without curly braces
+ function checkOdd(n) {
+   return (n % 2 === 1);
+ }
+ 
+ // Function Expression
 
-let checkOdd4 = (n) => {               //Arrow function with curly braces
-                          return (n%2===1);
-                       };
+ let checkOdd2 = function (n) {
+                   return (n % 2 === 1);
+                 };
 
-checkOdd4(13); // Function Invocation
+ //Arrow function without curly braces
+
+ let checkOdd3 = (n) => (n % 2 === 1);
+
+ //Arrow function with curly braces
+
+ let checkOdd4 = (n) => {              
+                          return (n % 2 === 1);
+                        };
+
+ // Function Invocation
+
+ checkOdd4(13); 
 
 
 /**
@@ -461,11 +570,11 @@ checkOdd4(13); // Function Invocation
  * @param {number} total maximum possible score
  * @return {string} the score represented as a letter grade
  */
+ 
+ // Function Decleration
 
-function gradeSystem(score) // Function Decleration
- {
-   switch(score<=100)
-   {
+ function gradeSystem(score) {
+   switch(score <= 100) {
      case (score>=90) : return "A";
      case (score>=80 && score<90) : return "B";
      case (score>=70 && score<80) : return "C";
@@ -474,10 +583,11 @@ function gradeSystem(score) // Function Decleration
    }
  }
 
-let gradeSystemExp = function (marks)     //Function Expression
+ //Function Expression
+
+ let gradeSystemExp = function (marks)     
                       {
-                        switch(score<=100)
-                        {
+                        switch(score<=100) {
                           case (score>=90) : return "A";
                           case (score>=80 && score<90) : return "B";
                           case (score>=70 && score<80) : return "C";
@@ -486,17 +596,20 @@ let gradeSystemExp = function (marks)     //Function Expression
                         }
                       };
 
-let gradeSystemArrow = (marks) => {                  //Arrow Function with curly braces
-                                    switch(score<=100)
-                                    {
+ //Arrow Function with curly braces
+
+ let gradeSystemArrow = (marks) => {                  
+                                    switch(score<=100) {
                                       case (score>=90) : return "A";
                                       case (score>=80 && score<90) : return "B";
                                       case (score>=70 && score<80) : return "C";
                                       case (score>=60 && score<70) : return "D";
                                       default : return "F";
                                     }
-                                  };
-gradeSystemArrow(77);
+                                   };
+ //Function Invocation
+
+ gradeSystemArrow(77);
 
 /**
  * Joins two strings with a space.
@@ -504,21 +617,27 @@ gradeSystemArrow(77);
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
+ 
+ // Function Decleration
 
-function concatTwoString(word1,word2)  // Function Decleration
-{
-  return word1+word2;
-}
+ function concatTwoString(word1, word2) {
+   return word1 + word2;
+ }
 
-let concatTwoString2 = function (word1,word2) // Function Expression
-                        {
-                          return word1+word2;
+ // Function Expression
+ 
+ let concatTwoString2 = function (word1, word2) {
+                          return word1 + word2;
                         }
+ //Arrow function without curly braces
 
-let concatTwoString3 = (word1,word2) => word1+word2; //Arrow function without curly braces
+ let concatTwoString3 = (word1, word2) => word1 + word2; 
 
-let concatTwoString4 = (word1,word2) => {            //Arrow function with curly braces
-                                          return word1+word2;
-                                        }
+ //Arrow function with curly braces
 
-concatTwoString4("Hello","World");
+ let concatTwoString4 = (word1, word2) => {            
+                                            return word1 + word2;
+                                          }
+ //Function Invocation
+
+ concatTwoString4("Hello", "World");
