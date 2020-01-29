@@ -128,16 +128,16 @@ let option = prompt("Enter \n + for computing the sum of 1 to n \n * for computi
 
 switch(option)
 {
-  case "+" : alert(n*(n+1)/2);
+  case "+" : alert( n * (n+1) / 2 );
              break;
   
-  case "*" : for(i=1;i<=n;i++)
+  case "*" : for(i = 1; i <= n; i++)
               {
                 prod *= i;
               }
-              alert(prod);
+              alert( prod );
               break;
-  default :   alert("Please, choose a correct option");
+  default :   alert( "Please, choose a correct option" );
 }
 
 ```

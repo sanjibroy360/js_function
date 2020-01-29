@@ -295,7 +295,7 @@ convertToString(21); // "21"
             {
                 switch(operation) {
                   case "add" : alert(`${x} + ${y} = ${x + y}`);
-                              return x + y;
+                               return x + y;
                   
                   case "subtract" : alert(`${x} - ${y} = ${x - y}`);
                                     return x - y;
@@ -358,8 +358,8 @@ convertToString(21); // "21"
  //Arrow function with curly braces
 
  let compare4 = (a, b) => {              
-                           return a > b;
-                         };
+                            return a > b;
+                          };
 
  // Function Invocation
 
@@ -403,7 +403,7 @@ convertToString(21); // "21"
  * @return {boolean} the numbers are equal
  */
 
- // Function a < b ? a: b;Decleration
+ // Function Decleration
 
  function equal(a, b) {
   return a === b;
@@ -492,7 +492,7 @@ convertToString(21); // "21"
  let largest4 = (x,y) => {               
                            return x > y ? x : y;
                          };
-                         
+
  // Function Invocation
  
  largest3(10, 8); 
@@ -526,6 +526,8 @@ convertToString(21); // "21"
  // Function Invocation
 
  checkEven4(10); 
+
+
 /**
  * Returns true if `n` is odd.
  * @param {number} n
@@ -585,7 +587,7 @@ convertToString(21); // "21"
 
  //Function Expression
 
- let gradeSystemExp = function (marks)     
+ let gradeSystemExp = function (score)     
                       {
                         switch(score<=100) {
                           case (score>=90) : return "A";
@@ -598,7 +600,7 @@ convertToString(21); // "21"
 
  //Arrow Function with curly braces
 
- let gradeSystemArrow = (marks) => {                  
+ let gradeSystemArrow = (score) => {                  
                                     switch(score<=100) {
                                       case (score>=90) : return "A";
                                       case (score>=80 && score<90) : return "B";
