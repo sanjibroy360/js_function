@@ -255,7 +255,7 @@ convertToString(21); // "21"
  //Arrow function with curly braces
 
  let squareNum3 = (x) => {              
-                            return x*x;
+                            return x * x;
                          };
 
  // Function Invocation
@@ -630,7 +630,7 @@ convertToString(21); // "21"
  
  let concatTwoString2 = function (word1, word2) {
                           return word1 + word2;
-                        }
+                        };
  //Arrow function without curly braces
 
  let concatTwoString3 = (word1, word2) => word1 + word2; 
@@ -639,7 +639,7 @@ convertToString(21); // "21"
 
  let concatTwoString4 = (word1, word2) => {            
                                             return word1 + word2;
-                                          }
+                                          };
  //Function Invocation
 
  concatTwoString4("Hello", "World");
