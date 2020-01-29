@@ -131,12 +131,11 @@ switch(option)
   case "+" : alert( n * (n+1) / 2 );
              break;
   
-  case "*" : for(i = 1; i <= n; i++)
-              {
+  case "*" : for(i = 1; i <= n; i++) {
                 prod *= i;
-              }
-              alert( prod );
-              break;
+             }
+             alert( prod );
+             break;
   default :   alert( "Please, choose a correct option" );
 }
 
