@@ -58,7 +58,7 @@ convertToString(21); // "21"
  let addOne3 = (n) => {               //Arrow function with Curly braces
                         return n+1;
                       };
- add1(); //function invocation
+ add1(28); //function invocation
 
 /**
  * Subtracts one from a given number.
@@ -80,7 +80,7 @@ let subOne2 = (n) => n-1; //Arrow Function without curly braces
 let subOne3 = (n) => {              // Arrow Function with curly braces
                         return n-1;
                      };
-sub1(29); // Function Invocation
+sub1(30); // Function Invocation
 
 /**
  * Adds two numbers.
