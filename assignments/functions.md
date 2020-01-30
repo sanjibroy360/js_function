@@ -20,7 +20,7 @@
   const MAX_AGE = 75;
 
   let calculateSupply = (age, amountPerDay) => (MAX_AGE - age) * (amountPerDay * 365);
-  alert(`" You will need ${calculateSupply(21, 3)} to 
+  alert(`" You will need ${Math.round( calculateSupply(21, 3) )} to 
     last you until the ripe old age of ${MAX_AGE} "`);
 ```
 3. 🎖Create a function called celsiusToFahrenheit:
