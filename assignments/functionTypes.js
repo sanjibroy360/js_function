@@ -575,43 +575,43 @@ convertToString(21); // "21"
  
  // Function Decleration
 
- function gradeSystem(score) {
-   switch(score <= 100) {
-     case (score>=90) : return "A";
-     case (score>=80 && score<90) : return "B";
-     case (score>=70 && score<80) : return "C";
-     case (score>=60 && score<70) : return "D";
-     default : return "F";
+ function gradeSystem(score, total) {
+   switch(score <= total) {
+    case (score >= 90) : return "A";
+    case (score >= 80 && score < 90) : return "B";
+    case (score >= 70 && score < 80) : return "C";
+    case (score >= 60 && score < 70) : return "D";
+    default : return "F";
    }
  }
 
  //Function Expression
 
- let gradeSystemExp = function (score)     
+ let gradeSystemExp = function (score, total)     
                       {
-                        switch(score<=100) {
-                          case (score>=90) : return "A";
-                          case (score>=80 && score<90) : return "B";
-                          case (score>=70 && score<80) : return "C";
-                          case (score>=60 && score<70) : return "D";
+                        switch(score <= total) {
+                          case (score >= 90) : return "A";
+                          case (score >= 80 && score < 90) : return "B";
+                          case (score >= 70 && score < 80) : return "C";
+                          case (score >= 60 && score < 70) : return "D";
                           default : return "F";
                         }
                       };
 
  //Arrow Function with curly braces
 
- let gradeSystemArrow = (score) => {                  
-                                    switch(score<=100) {
-                                      case (score>=90) : return "A";
-                                      case (score>=80 && score<90) : return "B";
-                                      case (score>=70 && score<80) : return "C";
-                                      case (score>=60 && score<70) : return "D";
+ let gradeSystemArrow = (score, total) => {                  
+                                    switch(score <= total) {
+                                      case (score >= 90) : return "A";
+                                      case (score >= 80 && score < 90) : return "B";
+                                      case (score >= 70 && score < 80) : return "C";
+                                      case (score >= 60 && score < 70) : return "D";
                                       default : return "F";
                                     }
                                    };
  //Function Invocation
 
- gradeSystemArrow(77);
+ gradeSystemArrow(77, 100);
 
 /**
  * Joins two strings with a space.
@@ -623,22 +623,22 @@ convertToString(21); // "21"
  // Function Decleration
 
  function concatTwoString(word1, word2) {
-   return word1 + word2;
+   return word1 + " " + word2;
  }
 
  // Function Expression
  
  let concatTwoString2 = function (word1, word2) {
-                          return word1 + word2;
+                          return word1 + " " + word2;
                         };
  //Arrow function without curly braces
 
- let concatTwoString3 = (word1, word2) => word1 + word2; 
+ let concatTwoString3 = (word1, word2) => word1 + " " + word2;
 
  //Arrow function with curly braces
 
  let concatTwoString4 = (word1, word2) => {            
-                                            return word1 + word2;
+                                            return word1 + " " + word2;
                                           };
  //Function Invocation
 
