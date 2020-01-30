@@ -62,8 +62,7 @@ function checkAge(age) {
   ```js
   // your code goes here
 
-  function checkAge(age)
-  {
+  function checkAge(age) {
     return age > 18 ? true : "Did parents allow you?" ;
   }
 
@@ -121,17 +120,17 @@ alert( pow(x, n) );
 ```js
 // your code goes here
 
-let prod = 1;
 let n = prompt("Enter The Number","0");
 n = Number(n);
 let option = prompt("Enter \n + for computing the sum of 1 to n \n * for computing the product of 1 to n \n");
 
-switch(option)
-{
+switch(option) {
+  
   case "+" : alert( n * (n+1) / 2 );
              break;
   
-  case "*" : for(i = 1; i <= n; i++) {
+  case "*" : let prod = 1;
+             for(i = 1; i <= n; i++) {
                 prod *= i;
              }
              alert( prod );
@@ -162,17 +161,15 @@ n = Number(n);
 let sum = (n) => {
   let res = 0;
   
-  for(i = 1; i <= n; i++)
-  { 
-    if(i % 5 === 0 || i % 7 === 0 && i % 35 !== 0 )
-    {
+  for(i = 1; i <= n; i++) { 
+    if(i % 5 === 0 || i % 7 === 0) {
       res += i;
     }
   }
   return res;
 }
 
-alert(sum(n));
+alert( sum(n) );
 
 ```
 
